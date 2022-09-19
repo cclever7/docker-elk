@@ -35,7 +35,7 @@ docker-compose -f docker-compose.keystore.yml run --rm keystore
 
 ## 4、启动ELK
 ```shell
-docker-compose -f ./docker-compose.yml up  --build --remove-orphans
+docker-compose -f ./docker-compose.yml up -d  --build --remove-orphans
 ```
 ## 5、页面账号登录
 [ElasticSearch：https://localhost:9200](https://localhost:9200/)
